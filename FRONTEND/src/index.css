@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Bebas+Neue&family=Cabin&family=Dosis:wght@600&family=Montserrat:wght@200&family=Petemoss&family=Roboto:wght@900&family=Sacramento&family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Navbar css */
+
+.navbrand{
+  font-family: 'Roboto', sans-serif ;
+  font-size: 25px;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar{
+  color: white;
+  background-color: red;
+  line-height: 2.5;
+}
+
+
+
+.mylink{
+  text-decoration: none;
+  margin: 5%;
+  color: white;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.active{
+  border-bottom: 1px solid white;
+}
+
+
+/* For Register */
+
+.register{
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+  justify-content: center;
+   /* height: 70vh; */
+  flex-direction: column;
+  /* padding: 50%; */
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/* Spinner  */
+.myspinner{
+  margin: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* product */
+
+.productCard{
+  position: sticky;
+
+}
+
+.productLink{
+  text-decoration: none;
+}
